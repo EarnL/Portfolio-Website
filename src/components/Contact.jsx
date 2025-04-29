@@ -27,9 +27,8 @@ const Contact = () => {
 
           <div>
             <a href="mailto:arnelcaparros02@gmail.com">Email Me</a>
-            <a href="https://facebook.com/yourusername">Facebook</a>
-            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
-            <a href="https://twitter.com/yourusername">Twitter</a>
+            <a href="https://www.facebook.com/share/1FddZZNUbE/">Facebook</a>
+            
           </div>
 
         </div>
