@@ -25,12 +25,13 @@ const Contact = () => {
           <p>📞 09858478708</p>
           <p>✉️ arnelcaparros02@gmail.com</p>
 
-          <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-linkedin"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+          <div>
+            <a href="mailto:arnelcaparros02@gmail.com">Email Me</a>
+            <a href="https://facebook.com/yourusername">Facebook</a>
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            <a href="https://twitter.com/yourusername">Twitter</a>
           </div>
+
         </div>
 
       </div>
