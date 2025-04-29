@@ -1,0 +1,94 @@
+.hero {
+    text-align: center;
+    height: 75vh;
+    padding: 50px;
+    position: relative;
+    z-index: 0;  
+  }
+  .hero {
+    background: linear-gradient(135deg, #f9f9f9 0%, #e0e0e0 100%);
+    padding: 100px 20px;
+  }
+  
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero h2 {
+    font-size: 28px;
+    margin-bottom: 40px; 
+  }
+  
+  .web-text {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 0 5px;
+  }
+  
+
+  .profile-img {
+    width: 400px;  
+    height: auto;
+    position: absolute;
+    top: 135px;  
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0; 
+  }
+  
+ 
+  .hero-buttons {
+    margin-top: 200px; 
+  }
+  
+  .hire-me, .contact {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  
+ 
+  section {
+    padding: 50px 0;
+  }
+  
+  section:nth-of-type(odd) {
+    background-color: #f4f4f4; 
+  }
+  
+  #about, #contact, #design {
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px; 
+  }
+  .hero {
+    background: linear-gradient(135deg, #f9f9f9 0%, #e0e0e0 100%);
+    padding: 100px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hire-me, .contact {
+    transition: all 0.3s ease;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #9b9c9d;
+    color: white;
+  }
+  
+  .hire-me:hover, .contact:hover {
+    transform: scale(1.05);
+    background-color: #b71c1c;
+  }
+  
+  
